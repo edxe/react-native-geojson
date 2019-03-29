@@ -117,6 +117,7 @@ const Geojson = props => {
                             coordinates={overlay.coordinates}
                             strokeColor={props.strokeColor}
                             strokeWidth={props.strokeWidth}
+                            {...props}
                         />
                     );
                 }
